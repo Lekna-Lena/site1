@@ -40,6 +40,7 @@ margin-top: 127px;
         font-weight: 400;
         line-height: 20px;
         letter-spacing: 0px;
+        
     }
     &__item {
         border-top: 0.5px solid rgb(202, 205, 216);
@@ -97,26 +98,26 @@ margin-top: 127px;
 
     }
     &__input {
+
+        border-radius: 6px;
+        background: rgb(247, 246, 246);
         width: 71px;
         height: 51px;
-        border-radius: 6px;
-        background:  rgb(247, 246, 246);
-        color: $second-color;
-        font-family: Poppins;
+        outline: none;
+        border-color: transparent;
+        font-family: "Montserrat", serif;
         font-size: 14px;
+        font-weight: 400;
+        line-height: 17px;
+        font-family: "Poppins";
         font-weight: 600;
-        line-height: 210%;
-        letter-spacing: 0px;
-        display: flex;
-        flex-direction: row;
         text-align: center;
-        border-color:  rgb(247, 246, 246);
     }
     &__button-box-left {
         display: flex;
             gap: 7px;
     }
-&__button-left {
+&__button {
 background-color: #fff;
 width: 200px;
 height: 37px;
@@ -137,7 +138,7 @@ font-family: Montserrat;
         display: flex;
     }
 &__form-bigtext {
-
+    margin-top: 42px;
     width: 379px;
     height: 36px;
 

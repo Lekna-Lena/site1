@@ -64,14 +64,14 @@
 <div class="catalog center">
 <section class="option">
 <section class="guide">
-<a class="guide_link" href="http://index.html">Главная</a> <p>/</p> <p>Каталог</p>   
+<a class="guide__link" href="http://index.html">Главная</a> <p>/</p> <p>Каталог</p>   
 </section>
 <section class="option__filter">
 
            <div class="container center">
             <div class="filter-button-wrapper">
               <details>
-                <summary class="product__filter">Фильтрация</summary>
+                <summary class="product-filter">Фильтрация</summary>
 
               <form class="filtering-form" action="#" method="get">
                 <div class="filtering-form__content-wrapper">
@@ -104,7 +104,7 @@
           <div class="range">
             <label class="range__label" for="price-range">от 0 руб. до 100000 руб.</label>
             <div class="range__slider">
-              <input class="range__input range__input--min" name="range_1" type="range" min="1" max="100000" value="1" />
+              <input id="price-range" class="range__input range__input--min" name="range_1" type="range" min="1" max="100000" value="1" />
               <input class="range__input range__input--max" name="range_1" type="range" min="1" max="100000" value="100000" />
             </div>
           </div>
@@ -112,59 +112,59 @@
         <fieldset class="filtering-form__fieldset">
           <legend class="filtering-form__legend">Цвет</legend>
           <div class="colour-options">
-            <div class="checkbox color-options__checkbox">
+            <div class="checkbox color-options-checkbox">
               <input class="checkbox__input" type="checkbox" id="colour-white" />
               <label class="checkbox__label checkbox__label--white" for="colour-white" ></label>
             </div>
-            <div class="checkbox color-options__checkbox">
+            <div class="checkbox color-options-checkbox">
               <input class="checkbox__input" type="checkbox" id="colour-black" />
               <label class="checkbox__label checkbox__label--black" for="colour-black" ></label>
             </div>
-            <div class="checkbox color-options__checkbox">
+            <div class="checkbox color-options-checkbox">
               <input class="checkbox__input" type="checkbox" id="colour-grey" />
               <label class="checkbox__label checkbox__label--grey" for="colour-grey" ></label>
             </div>
-            <div class="checkbox color-options__checkbox">
+            <div class="checkbox color-options-checkbox">
               <input class="checkbox__input" type="checkbox" id="colour-red" />
               <label class="checkbox__label checkbox__label--red" for="colour-red" ></label>
             </div>
-            <div class="checkbox color-options__checkbox">
+            <div class="checkbox color-options-checkbox">
               <input class="checkbox__input" type="checkbox" id="colour-orange" />
               <label class="checkbox__label checkbox__label--orange" for="colour-orange" ></label>
             </div>
-            <div class="checkbox color-options__checkbox">
+            <div class="checkbox color-options-checkbox">
               <input class="checkbox__input" type="checkbox" id="colour-yellow" />
               <label class="checkbox__label checkbox__label--yellow" for="colour-yellow" ></label>
             </div>
-            <div class="checkbox color-options__checkbox">
+            <div class="checkbox color-options-checkbox">
               <input class="checkbox__input" type="checkbox" id="colour-green" />
               <label class="checkbox__label checkbox__label--green" for="colour-green" ></label>
             </div>
-            <div class="checkbox color-options__checkbox">
+            <div class="checkbox color-options-checkbox">
               <input class="checkbox__input" type="checkbox" id="colour-teal" />
               <label class="checkbox__label checkbox__label--teal" for="colour-teal" ></label>
             </div>
-            <div class="checkbox color-options__checkbox">
+            <div class="checkbox color-options-checkbox">
               <input class="checkbox__input" type="checkbox" id="colour-light-blue" />
               <label class="checkbox__label checkbox__label--light-blue" for="colour-light-blue" ></label>
             </div>
-            <div class="checkbox color-options__checkbox">
+            <div class="checkbox color-options-checkbox">
               <input class="checkbox__input" type="checkbox" id="colour-blue" />
               <label class="checkbox__label checkbox__label--blue" for="colour-blue" ></label>
             </div>
-            <div class="checkbox color-options__checkbox">
+            <div class="checkbox color-options-checkbox">
               <input class="checkbox__input" type="checkbox" id="colour-purple" />
               <label class="checkbox__label checkbox__label--purple" for="colour-purple" ></label>
             </div>
-            <div class="checkbox color-options__checkbox">
+            <div class="checkbox color-options-checkbox">
               <input class="checkbox__input" type="checkbox" id="colour-violet" />
               <label class="checkbox__label checkbox__label--violet" for="colour-violet" ></label>
             </div>
-            <div class="checkbox color-options__checkbox">
+            <div class="checkbox color-options-checkbox">
               <input class="checkbox__input" type="checkbox" id="colour-lavender" />
               <label class="checkbox__label checkbox__label--lavender" for="colour-lavender" ></label>
             </div>
-            <div class="checkbox color-options__checkbox">
+            <div class="checkbox color-options-checkbox">
               <input class="checkbox__input" type="checkbox" id="colour-pink" />
               <label class="checkbox__label checkbox__label--pink" for="colour-pink" ></label>
             </div>
@@ -209,7 +209,7 @@
             <label class="checkbox__label" for="cottage">Дача</label>
           </div>
           <div class="checkbox">
-            <input class="checkbox__input" type="checkbox" id="lightg" name="room-type" value="light" checked />
+            <input class="checkbox__input" type="checkbox" id="light" name="room-type" value="light" checked />
             <label class="checkbox__label" for="light">Свет</label>
           </div>
 
@@ -221,7 +221,7 @@
       </details>
         </div>     
         </div>
-    <select class="product__filter1" name="product" id="product">
+    <select class="product-filter1" name="product" id="product">
         <option value="new">Сперва новые</option>
         <option value="old">Сперва старые</option>
         <option value="popular">Популярные</option>
@@ -309,38 +309,38 @@
 </div>
 
 </div>
-<p class="open__product center">Показать еще</p>
+<p class="open-product center">Показать еще</p>
 <footer>
-    <div class="footer center">
-         <section class="footer__logo">
-          <a class="footer__logo_link" href="index.html">Интерьер.</a>
-         </section>     
-         <nav class="footer__menu">
-        <h4 id="menu">Меню</h4>
-      <ul>
-      <li class="footer__menu_link"><a class="menu__link_footer" href="index.html">Главная</a></li>
-      <li class="footer__menu_link"><a class="menu__link_footer" href="catalog.html">Каталог</a></li>
-      <li class="footer__menu_link"><a class="menu__link_footer" href="basket.html">Корзина</a></li>
-   </ul>
-   </nav>
-    <nav class="footer__contact">
-      <h4>Контакты</h4>
-      <a class="contact" href="mailto:help@interier.com">help@interier.com</a>
-      <a class="contact" href="tel:+79088008080">+7 908 800 80 80</a>
-      <nav class="footer__contact_social">
-      <a class="contact" href="http://vk.com"><img src="img/vk.svg" alt="vk" ></a>
-      <a class="contact" href="http://t.me"><img src="img/telegram.svg" alt="telegram"></a>
-      <a class="contact" href="http://dzen.ru"><img src="img/dzen.svg" alt="dzen"></a>
+  <div class="footer center">
+       <section class="footer__logo">
+        <a class="footer__logo footer__logo_link" href="index.html">Интерьер.</a>
+       </section>     
+       <nav class="footer__menu">
+      <h4 id="menu">Меню</h4>
+    <ul>
+    <li class="footer__menu footer__menu-link"><a class="footer__menu-link" href="index.html">Главная</a></li>
+    <li class="footer__menu footer__menu-link"><a class="footer__menu-link" href="catalog.html">Каталог</a></li>
+    <li class="footer__menu footer__menu-link"><a class="footer__menu-link" href="basket.html">Корзина</a></li>
+ </ul>
+ </nav>
+  <nav class="footer__contact">
+    <h4>Контакты</h4>
+    <a class="contact" href="mailto:help@interier.com">help@interier.com</a>
+    <a class="contact" href="tel:+79088008080">+7 908 800 80 80</a>
+    <nav class="footer__contact-social">
+    <a class="contact" href="http://vk.com"><img src="img/vk.svg" alt="vk" ></a>
+    <a class="contact" href="http://t.me"><img src="img/telegram.svg" alt="telegram"></a>
+    <a class="contact" href="http://dzen.ru"><img src="img/dzen.svg" alt="dzen"></a>
+  </nav>
     </nav>
-      </nav>
-      
-      <nav class="footer__button">
-        <form class="footer__text" action="button">Получайте наши новости и обновления</form>
-        <input placeholder="Ваш e-mail" class="footer__input_mail" type="email"> 
-        <button class="button">Подписаться</button>
-        </nav> 
-    </div>
-   </footer>
+    
+    <nav class="footer__button center-mobile">
+      <form class="footer__text" action="button">Получайте наши новости и обновления</form>
+      <input placeholder="Ваш e-mail" class="footer__input-mail" type="email"> 
+      <button class="button">Подписаться</button>
+      </nav> 
+  </div>
+ </footer>
 
 </body>
 </html>
