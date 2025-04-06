@@ -274,8 +274,7 @@ text-align: left;
 
 .filtering-form {
     position: absolute;
-    height: 548px;
-    width: 542px;
+
     top: calc(100% + 14px);
     right: 0;
     display: flex;
@@ -310,11 +309,9 @@ text-align: left;
 .filtering-form__content-wrapper {
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
+
     gap: 32px 65px;
-    max-height: 548px;
-    width: 445.5px;
-    height: 468px;
+
     
 }
 .filtering-form__fieldset {

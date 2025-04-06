@@ -67,8 +67,60 @@ height: 29px;
         &__input {
             display: none;
         }
+        &__header {
+            border-bottom: none;
+        }
         
     }
+.option {
+    display: flex;
+    flex-wrap: wrap;  
+}    
+.option__filter {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+}  
+.product-filter {
+    width: 164px;
+    height: 41px;
+    color: rgb(0, 0, 0);
+font-family: Montserrat;
+font-size: 14px;
+font-weight: 500;
+line-height: 17px;
+letter-spacing: 0%;
+text-align: left;
+margin-right: 34px;    
+}  
+.product-filter1 {
+    width: 203px;
+    height: 41px;
+    color: rgb(0, 0, 0);
+font-family: Montserrat;
+font-size: 14px;
+font-weight: 400;
+line-height: 17px;
+letter-spacing: 0%;
+text-align: left;
+}
+.filtering-form {
+    position: absolute;
+    width: 286.5px;
+   
+    left: 16px;
+    gap: 10;
+padding: 40px 48px 40px 48px;
+box-shadow: 0px 4px 67px -12px rgba(0, 0, 0, 0.32);
+background: rgb(255, 255, 255);
+        
+    display: flex;
+    flex-direction: column;
+    &____content-wrapper {
+        display: flex;
+    flex-direction: column;     
+    }
+}
     .logo {
         &__img {
         width: 99px;
@@ -78,6 +130,9 @@ height: 29px;
 display: block;
 display: flex;
 gap: 32px;
+}
+.icon-mobile {
+    margin-top: 2px;
 }
 .for {
     grid-template-columns: repeat(4, 1fr);
@@ -141,7 +196,7 @@ line-height: 22px;
             margin-bottom: 70px;
             }
 &__button {
-
+margin-top: 69px;
 justify-content: center;
 gap: 8px;
 }
@@ -162,7 +217,7 @@ gap: 8px;
 
     }
     .cart {
-        &__form {
+grid-row: 2;
             width: 343px;
             height: 556px;
             border-radius: 20px;
@@ -183,6 +238,14 @@ font-weight: 700;
 line-height: 29px;
 letter-spacing: 0px;
 text-align: center;
+
+}
+&__form {
+    margin-top: 48px;
+}
+&__content {
+    grid-column: span 4;  
+    width: 375px;  
 
 }
         &__title {

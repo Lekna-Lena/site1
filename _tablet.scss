@@ -36,6 +36,8 @@
 }
 .cart {
     grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: 1fr 1fr;
+    &__form {
     &__buttons:nth-child(2):hover{
         background: rgb(0, 0, 0);
         color: white;
@@ -67,8 +69,7 @@ text-align: center;
         padding-right: 12px;
     }
     .products {
-        width: 345px;
-
+       
     }
 
     .special__text{

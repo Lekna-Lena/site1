@@ -1095,8 +1095,6 @@ summary::-webkit-details-marker {
 
 .filtering-form {
   position: absolute;
-  height: 548px;
-  width: 542px;
   top: calc(100% + 14px);
   right: 0;
   display: flex;
@@ -1130,11 +1128,7 @@ summary::-webkit-details-marker {
 .filtering-form__content-wrapper {
   display: flex;
   flex-direction: column;
-  flex-wrap: wrap;
   gap: 32px 65px;
-  max-height: 548px;
-  width: 445.5px;
-  height: 468px;
 }
 
 .filtering-form__fieldset {
@@ -1571,6 +1565,56 @@ summary::-webkit-details-marker {
   .catalog-top__input {
     display: none;
   }
+  .catalog-top__header {
+    border-bottom: none;
+  }
+  .option {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .option__filter {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+  }
+  .product-filter {
+    width: 164px;
+    height: 41px;
+    color: rgb(0, 0, 0);
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-right: 34px;
+  }
+  .product-filter1 {
+    width: 203px;
+    height: 41px;
+    color: rgb(0, 0, 0);
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0%;
+    text-align: left;
+  }
+  .filtering-form {
+    position: absolute;
+    width: 286.5px;
+    left: 16px;
+    gap: 10;
+    padding: 40px 48px 40px 48px;
+    box-shadow: 0px 4px 67px -12px rgba(0, 0, 0, 0.32);
+    background: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+  }
+  .filtering-form____content-wrapper {
+    display: flex;
+    flex-direction: column;
+  }
   .logo__img {
     width: 99px;
   }
@@ -1578,6 +1622,9 @@ summary::-webkit-details-marker {
     display: block;
     display: flex;
     gap: 32px;
+  }
+  .icon-mobile {
+    margin-top: 2px;
   }
   .for {
     grid-template-columns: repeat(4, 1fr);
@@ -1640,6 +1687,7 @@ summary::-webkit-details-marker {
     margin-bottom: 70px;
   }
   .footer__button {
+    margin-top: 69px;
     justify-content: center;
     gap: 8px;
   }
@@ -1654,6 +1702,10 @@ summary::-webkit-details-marker {
     line-height: 22px;
     letter-spacing: 0px;
     text-align: left;
+  }
+  .cart {
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: 1fr 1fr;
   }
   .cart__form {
     width: 343px;
@@ -1676,6 +1728,10 @@ summary::-webkit-details-marker {
     line-height: 29px;
     letter-spacing: 0px;
     text-align: center;
+  }
+  .cart__content {
+    grid-column: span 6;
+    width: 375px;
   }
   .cart__title {
     height: 58px;
