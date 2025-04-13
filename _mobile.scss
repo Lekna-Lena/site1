@@ -218,13 +218,12 @@ gap: 8px;
     }
     .cart {
 grid-row: 2;
-            width: 343px;
-            height: 556px;
+
             border-radius: 20px;
-        background: rgb(247, 246, 246); 
+
         padding-left: 27px;
         padding-right: 28px;      
-    }
+    
 &__form-bigtext {
     width: 343px;
 height: 36px;
@@ -242,10 +241,12 @@ text-align: center;
 }
 &__form {
     margin-top: 48px;
+    grid-row: 2;
+    grid-column: span 8;
 }
 &__content {
-    grid-column: span 4;  
-    width: 375px;  
+    grid-column: span 8;  
+    
 
 }
         &__title {

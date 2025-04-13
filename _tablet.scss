@@ -1,4 +1,5 @@
-@media ( max-width: 1024px) {
+@media ( max-width: 1024px) 
+{
     .center {
         padding-left: calc(50% - 394px);
         padding-right: calc(50% - 394px);
@@ -10,6 +11,7 @@
     }
 }
 .products {
+    width: 100%;
     column-gap: 29px;
     row-gap: 39px;
 }
@@ -63,19 +65,15 @@ text-align: center;
 
 }
 }
+}
 @media ( max-width: 783px) {
     .center {
         padding-left: 12px;
         padding-right: 12px;
     }
-    .products {
-       
-    }
+
 
     .special__text{
         width: 729px;
     }
-
-
-
 }
