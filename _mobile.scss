@@ -60,6 +60,12 @@ text-align: left;
 width: 178px;
 height: 29px;
     }
+    .product {
+        width: 100%;
+     } 
+     .products {
+        width: 100%;
+     } 
     .catalog-top {
         &__menu {
             display: none;  
@@ -81,6 +87,10 @@ height: 29px;
     flex-wrap: wrap;
     flex-direction: column-reverse;
 }  
+.container {
+
+    padding-left: 0px;
+}
 .product-filter {
     width: 164px;
     height: 41px;
@@ -121,6 +131,12 @@ background: rgb(255, 255, 255);
     flex-direction: column;     
     }
 }
+.filtering-form__content-wrapper {
+
+    max-height: 910px; /* Максимальная высота 548px */
+    min-width: 286.5px;
+
+  }
     .logo {
         &__img {
         width: 99px;
@@ -221,8 +237,7 @@ grid-row: 2;
 
             border-radius: 20px;
 
-        padding-left: 27px;
-        padding-right: 28px;      
+    
     
 &__form-bigtext {
     width: 343px;
@@ -240,9 +255,10 @@ text-align: center;
 
 }
 &__form {
-    margin-top: 48px;
+    margin-top: 1px;
     grid-row: 2;
     grid-column: span 8;
+    width: 343px;
 }
 &__content {
     grid-column: span 8;  

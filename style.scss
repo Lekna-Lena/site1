@@ -24,8 +24,8 @@ $font-stack: Montserrat;
      align-items: center;
      }
   .center {
-    padding-left: calc(50% - 600px);
-    padding-right: calc(50% - 600px);
+    padding-left: calc(50% - 610px);
+    padding-right: calc(50% - 610px);
   }
   body {
     font-family: "Montserrat", sans-serif;
@@ -245,7 +245,7 @@ margin-top: 64px;
     flex-wrap: wrap;
 }
 .product {
-    width: 100%;
+    width: 379px;
     display: flex;
     flex-direction: column;   
  } 
@@ -513,6 +513,7 @@ letter-spacing: 0%;
 
 .for-box {
     padding-top: 64px;
+    
 }
 .for {
     margin-top: 32px;
